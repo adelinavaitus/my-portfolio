@@ -1,42 +1,211 @@
+:root {
+  --primary-color: #f6cbb6;
+  --text-color: #333;
+  --secondary-color: #666666;
+  --hover-color: #4ac284;
+}
+
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  min-height: 100vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: var(--primary-color);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.navbar, .footer, .carousel-container{
+  background-color: var(--primary-color);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styles for each navbar item */
+.nav-item {
+  margin: 0 15px;  /* Adds horizontal spacing between navigation items */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Styles for the navigation icons */
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;   /* Sets a fixed width for the icon */
+  height: 70px;   /* Sets a fixed height for the icon */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 5px;
 }
 
-.card {
-  padding: 2em;
+/* Hover effect for the icon */
+.nav-item:hover .nav-icon {
+  opacity: 0.5; 
 }
 
-.read-the-docs {
-  color: #888;
+.link-style {
+  text-decoration: none;
+  color: inherit;
 }
+
+.container{
+  max-width: 1280px;
+  text-align: center;
+}
+
+.tech-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech-card:hover {
+  transform: scale(1.05); 
+}
+
+.tech-card-img-container {
+  position: relative;
+}
+
+.notepad-img {
+  object-fit: cover;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  margin: 0;
+}
+
+.tech-icons {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: column; 
+  gap: 25px; 
+  align-items: center; 
+}
+
+.icon-pair {
+  display: flex;
+  justify-content: center; 
+  gap: 85px;
+}
+
+.tech-icons svg {
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+
+.tech-icons svg:hover {
+  color: var(--primary-color);
+}
+
+.icon{
+  font-size: 70px;
+}
+
+.icon-container {
+  position: relative; 
+  display: inline-block;
+}
+
+.icon-tooltip {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  opacity: 0; 
+  pointer-events: none;
+  white-space: nowrap; 
+  transition: opacity 0.2s ease-in-out;
+}
+
+.icon-container:hover .icon-tooltip {
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; 
+  background-size: 100%;
+  border-radius: 50%; 
+}
+
+.row-container{
+  padding: 50px;
+}
+
+.certificates-intro, .tech-category-text, 
+.header-text {
+  text-align: center;
+  color: var(--text-color);
+  font-size: 1.2rem; 
+  line-height: 1.8; 
+  font-family: 'Roboto', sans-serif; 
+}
+
+h3{
+  font-family: 'Roboto', sans-serif; 
+  color: var(--text-color);
+}
+
+.home-container{
+  display: flex;
+  flex-direction: column; 
+  gap: 15px; 
+}
+
+.buttons-container{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.home-icon {
+  font-size: 35px;
+  margin-right: 10px;
+  color: var(--secondary-color);
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.home-icon:hover {
+  color: var(--hover-color);
+}
+
+.colaborate-button, .work-button{
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.colaborate-button {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important; 
+  color: white; 
+}
+
+.colaborate-button:hover {
+  background-color: #00a550!important; 
+  border-color: #00a550 !important; 
+  color: white; 
+}
+
+.work-button {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important; 
+  color: white; 
+}
+
+.work-button:hover {
+  background-color: var(--hover-color)!important; 
+  border-color: var(--hover-color)!important; 
+  color: white; 
+}
+
