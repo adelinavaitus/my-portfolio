@@ -1,17 +1,25 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-dark text-white py-4">
+    <footer className="py-4 footer">
+      <hr />
       <Container>
         <Row>
           <Col md={6} sm={12}>
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="#home" className="text-white text-decoration-none">Home</a></li>
-              <li><a href="#about" className="text-white text-decoration-none">About me</a></li>
-              <li><a href="#contact" className="text-white text-decoration-none">Contact</a></li>
+              <li>
+                <Link to="/" className="link-style">Home</Link>
+              </li>
+              <li>
+                <Link to="/about" className="link-style">About me</Link>
+              </li>
+              <li>
+                <Link to="/contact" className="link-style">Contact</Link>
+              </li>
             </ul>
           </Col>
 
