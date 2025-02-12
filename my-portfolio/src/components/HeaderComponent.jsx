@@ -8,29 +8,39 @@ function Header() {
             <Container>
                 <Nav className="ms-auto">
                     <Nav.Item className="nav-item">
-                        <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-home.png)' }}>
-                            <Link to="/" className="link-style">Home</Link>
-                        </div>
+                        <Link to="/" className="link-style">
+                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-home.png)' }}>
+                                Home
+                            </div>
+                        </Link>
                     </Nav.Item>
                     <Nav.Item className="nav-item">
-                        <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-aboutme.png)' }}>
-                            <Link to="/about" className="link-style">About me</Link>
-                        </div>
+                        <Link to="/about" className="link-style">
+                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-aboutme.png)' }}>
+                                About me
+                            </div>
+                        </Link>
                     </Nav.Item>
                     <Nav.Item className="nav-item">
-                        <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-stack.png)' }}>
-                            <Link to="/stack" className="link-style">My stack</Link>
-                        </div>
+                        <Link to="/stack" className="link-style">
+                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-stack.png)' }}>
+                                My stack
+                            </div>
+                        </Link>
                     </Nav.Item>
                     <Nav.Item className="nav-item">
-                        <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-projects.png)' }}>
-                            <Link to="/projects" className="link-style">Projects</Link>
-                        </div>
+                        <Link to="/projects" className="link-style">
+                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-projects.png)' }}>
+                                Projects
+                            </div>
+                        </Link>
                     </Nav.Item>
                     <Nav.Item className="nav-item">
-                        <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-contactme.png)' }}>
-                            <Link to="/contact" className="link-style">Contact</Link>
-                        </div>
+                        <Link to="/contact" className="link-style">
+                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-contactme.png)' }}>
+                                Contact
+                            </div>
+                        </Link>
                     </Nav.Item>
                 </Nav>
             </Container>

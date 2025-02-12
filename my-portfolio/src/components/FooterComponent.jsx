@@ -7,10 +7,9 @@ function Footer() {
     <footer className="py-4 footer">
       <img
         src="/assets/flowers.png"
-        alt="Home page image"
+        alt="Flowers image"
         style={{ width: "100%", objectFit: "cover" }}
       />
-      <hr />
       <Container>
         <Row>
           <Col md={6} sm={12}>
