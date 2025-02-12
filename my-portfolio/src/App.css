@@ -44,5 +44,86 @@
 }
 
 .container{
-    max-width: 1280px;
+  max-width: 1280px;
+  text-align: center;
+}
+
+.tech-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech-card:hover {
+  transform: scale(1.05); 
+}
+
+.tech-card-img-container {
+  position: relative;
+}
+
+.notepad-img {
+  object-fit: cover;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  margin: 0;
+}
+
+.tech-icons {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: column; 
+  gap: 25px; 
+  align-items: center; 
+}
+
+.icon-pair {
+  display: flex;
+  justify-content: center; 
+  gap: 85px;
+}
+
+.tech-icons svg {
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+
+.tech-icons svg:hover {
+  color: var(--primary-color);
+}
+
+.icon{
+  font-size: 70px;
+}
+
+.icon-container {
+  position: relative; 
+  display: inline-block;
+}
+
+.icon-tooltip {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  opacity: 0; 
+  pointer-events: none;
+  white-space: nowrap; 
+  transition: opacity 0.2s ease-in-out;
+}
+
+.icon-container:hover .icon-tooltip {
+  opacity: 1;
 }
