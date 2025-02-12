@@ -4,3 +4,26 @@
   padding: 2rem;
   text-align: center;
 }
+
+/* Styles for each navbar item */
+.nav-item {
+  margin: 0 15px;  /* Adds horizontal spacing between navigation items */
+}
+
+/* Styles for the navigation icons */
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;   /* Sets a fixed width for the icon */
+  height: 70px;   /* Sets a fixed height for the icon */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* Hover effect for the icon */
+.nav-item:hover .nav-icon {
+  opacity: 0.5; 
+}
