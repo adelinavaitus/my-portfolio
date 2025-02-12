@@ -13,6 +13,7 @@ function Stack() {
             <Row className="row-container">
                 <Col md={4} className="my-stack-col">
                     <Card className="tech-card">
+                        <span className="tech-category-text">Backend</span>
                         <div className="tech-card-img-container">
                             <Card.Img
                                 variant="top"
@@ -51,6 +52,7 @@ function Stack() {
 
                 <Col md={4} className="my-stack-col">
                     <Card className="tech-card">
+                        <span className="tech-category-text">Frontend</span>
                         <div className="tech-card-img-container">
                             <Card.Img
                                 variant="top"
@@ -114,6 +116,7 @@ function Stack() {
 
                 <Col md={4} className="my-stack-col">
                     <Card className="tech-card">
+                        <span className="tech-category-text">Other technologies</span>
                         <div className="tech-card-img-container">
                             <Card.Img
                                 variant="top"
