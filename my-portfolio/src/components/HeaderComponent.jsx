@@ -10,35 +10,35 @@ function Header() {
                     <Nav.Item className="nav-item">
                         <Link to="/" className="link-style">
                             <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-home.png)' }}>
-                                Home
+                                <span className="header-text">Home</span>
                             </div>
                         </Link>
                     </Nav.Item>
                     <Nav.Item className="nav-item">
                         <Link to="/about" className="link-style">
                             <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-aboutme.png)' }}>
-                                About me
+                                <span className="header-text">About me</span>
                             </div>
                         </Link>
                     </Nav.Item>
                     <Nav.Item className="nav-item">
                         <Link to="/stack" className="link-style">
                             <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-stack.png)' }}>
-                                My stack
+                                <span className="header-text">My stack</span>
                             </div>
                         </Link>
                     </Nav.Item>
                     <Nav.Item className="nav-item">
                         <Link to="/projects" className="link-style">
                             <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-projects.png)' }}>
-                                Projects
+                                <span className="header-text">Projects</span>
                             </div>
                         </Link>
                     </Nav.Item>
                     <Nav.Item className="nav-item">
                         <Link to="/contact" className="link-style">
                             <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-contactme.png)' }}>
-                                Contact
+                                <span className="header-text">Contact me</span>
                             </div>
                         </Link>
                     </Nav.Item>

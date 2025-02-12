@@ -140,8 +140,8 @@
   padding: 50px;
 }
 
-.certificates-intro {
-  margin-bottom: 2rem; 
+.certificates-intro, .tech-category-text, 
+.header-text {
   text-align: center;
   color: var(--text-color);
   font-size: 1.2rem; 
@@ -149,8 +149,31 @@
   font-family: 'Roboto', sans-serif; 
 }
 
-.tech-category-text{
+h3{
   font-family: 'Roboto', sans-serif; 
-  font-size: 1.2rem; 
   color: var(--text-color);
+}
+
+.home-container{
+  display: flex;
+  flex-direction: column; 
+  gap: 15px; 
+}
+
+.buttons-container{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.home-icon{
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+.colaborate-button{
+  margin-right: 30px;
+}
+
+.colaborate-button, .work-button{
+  width: 200px;
 }
