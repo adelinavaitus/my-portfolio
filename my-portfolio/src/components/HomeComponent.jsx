@@ -29,12 +29,13 @@ function Home() {
 
                         <div className="buttons-container">
                             <Link to="/contact">
-                                <Button className="colaborate-button" variant="primary">Get in touch</Button>
+                                <Button className="colaborate-button">Get in touch</Button>
                             </Link>
                             <Link to="/projects">
                                 <Button className="work-button" variant="secondary">See my work</Button>
                             </Link>
                         </div>
+                        
                         <div>
                             <a href="mailto:adelinavaitus@gmail.com">
                                 <MdEmail className="home-icon" />
@@ -49,7 +50,7 @@ function Home() {
                     </div>
                 </Col>
 
-                <Col>
+                <Col style={{ display: "flex", alignItems: "center"}}>
                     <img
                         src="/assets/home-img.png"
                         alt="Home page image"
