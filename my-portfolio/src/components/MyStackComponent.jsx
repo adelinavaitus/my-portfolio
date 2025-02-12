@@ -4,12 +4,13 @@ import { FaJava, FaReact, FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaGit, FaUnity 
 import { SiSpring, SiApachemaven, SiMysql, SiVite, SiTypescript, SiRedux, SiPostman, SiIntellijidea } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { DiVisualstudio } from "react-icons/di";
+import ImageCarousel from "./ImageCarouselComponent";
 
 function Stack() {
     return (
         <div className="container">
             <h2>My Tech Stack</h2>
-            <Row>
+            <Row className="row-container">
                 <Col md={4} className="my-stack-col">
                     <Card className="tech-card">
                         <div className="tech-card-img-container">
@@ -160,6 +161,18 @@ function Stack() {
                         </div>
                     </Card>
                 </Col>
+            </Row>
+            <Row className="row-container">
+                <div className="certificates-intro">
+                    <p>
+                        Continuous learning has always been at the core of my professional growth.
+                        Throughout my journey as a software engineer, I’ve dedicated time to acquiring
+                        new skills and staying up to date with the latest technologies and methodologies.
+                        Below, you’ll find a selection of certifications I’ve earned on Coursera, showcasing
+                        my commitment to improving my expertise.
+                    </p>
+                </div>
+                <ImageCarousel />
             </Row>
         </div>
     );
