@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="py-4 footer">
+      <img
+        src="/assets/flowers.png"
+        alt="Home page image"
+        style={{ width: "100%", objectFit: "cover" }}
+      />
       <hr />
       <Container>
         <Row>

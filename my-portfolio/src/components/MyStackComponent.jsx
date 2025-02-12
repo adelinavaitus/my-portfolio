@@ -162,6 +162,13 @@ function Stack() {
                     </Card>
                 </Col>
             </Row>
+            <Row>
+                <img
+                    src="/assets/flower-line.png"
+                    alt="Flower line image"
+                    style={{ width: "100%", objectFit: "cover" }}
+                />
+            </Row>
             <Row className="row-container">
                 <div className="certificates-intro">
                     <p>
