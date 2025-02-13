@@ -11,157 +11,180 @@ function Stack() {
         <div className="container">
             <h2>My Tech Stack</h2>
             <Row className="row-container">
-                <Col md={4} className="my-stack-col">
+
+                <Col lg={4} md={6} sm={12}  className="my-stack-col" >
+                    <span className="tech-category-text">Backend</span>
                     <Card className="tech-card">
-                        <span className="tech-category-text">Backend</span>
-                        <div className="tech-card-img-container">
-                            <Card.Img
-                                variant="top"
-                                src="/assets/notepad-img.png"
-                                alt="Notepad"
-                                className="notepad-img"
-                            />
-                            <div className="tech-icons">
-                                <div className="icon-pair">
-                                    <div className="icon-container">
-                                        <FaJava className="icon" />
-                                        <span className="icon-tooltip">Java</span>
-                                    </div>
-
-                                    <div className="icon-container">
-                                        <SiSpring className="icon" />
-                                        <span className="icon-tooltip">Spring</span>
-                                    </div>
-                                </div>
-
-                                <div className="icon-pair">
-                                    <div className="icon-container">
-                                        <SiApachemaven className="icon" />
-                                        <span className="icon-tooltip">Maven</span>
-                                    </div>
-
-                                    <div className="icon-container">
-                                        <SiMysql className="icon" />
-                                        <span className="icon-tooltip">MySQL</span>
-                                    </div>
-                                </div>
+                        <Card.Img
+                            variant="top"
+                            src="/assets/notepad-img.png"
+                            alt="Notepad"
+                            className="notepad-img"
+                        />
+                        <Card className="overlaying-card position-absolute">
+                            <div className="tech-card-img-container">
+                                <Row className="tech-row">
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6} >
+                                        <div className="tech-icons">
+                                            <FaJava className="icon" />
+                                            <span className="icon-tooltip">Java</span>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <SiSpring className="icon" />
+                                            <span className="icon-tooltip">Spring</span>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row className="tech-row">
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <SiApachemaven className="icon" />
+                                            <span className="icon-tooltip">Maven</span>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <SiMysql className="icon" />
+                                            <span className="icon-tooltip">MySQL</span>
+                                        </div>
+                                    </Col>
+                                </Row>
                             </div>
-                        </div>
+                        </Card>
+
                     </Card>
                 </Col>
 
-                <Col md={4} className="my-stack-col">
+                <Col lg={4} md={6} sm={12} className="my-stack-col">
+                    <span className="tech-category-text">Frontend</span>
                     <Card className="tech-card">
-                        <span className="tech-category-text">Frontend</span>
-                        <div className="tech-card-img-container">
-                            <Card.Img
-                                variant="top"
-                                src="/assets/notepad-img.png"
-                                alt="Notepad"
-                                className="notepad-img"
-                            />
-                            <div className="tech-icons">
-                                <div className="icon-pair">
-                                    <div className="icon-container">
-                                        <FaJs className="icon" />
-                                        <span className="icon-tooltip">Javascript</span>
-                                    </div>
-
-                                    <div className="icon-container">
-                                        <SiTypescript className="icon" />
-                                        <span className="icon-tooltip">Typescript</span>
-                                    </div>
-
-                                </div>
-
-                                <div className="icon-pair">
-                                    <div className="icon-container">
-                                        <FaReact className="icon" />
-                                        <span className="icon-tooltip">React</span>
-                                    </div>
-
-                                    <div className="icon-container">
-                                        <FaBootstrap className="icon" />
-                                        <span className="icon-tooltip">Bootstrap</span>
-                                    </div>
-                                </div>
-
-                                <div className="icon-pair">
-                                    <div className="icon-container">
-                                        <FaHtml5 className="icon" />
-                                        <span className="icon-tooltip">HTML</span>
-                                    </div>
-
-                                    <div className="icon-container">
-                                        <FaCss3Alt className="icon" />
-                                        <span className="icon-tooltip">CSS</span>
-                                    </div>
-                                </div>
-
-                                <div className="icon-pair">
-                                    <div className="icon-container">
-                                        <SiRedux className="icon" />
-                                        <span className="icon-tooltip">Redux</span>
-                                    </div>
-
-                                    <div className="icon-container">
-                                        <SiVite className="icon" />
-                                        <span className="icon-tooltip">Vite</span>
-                                    </div>
-                                </div>
+                        <Card.Img
+                            variant="top"
+                            src="/assets/notepad-img.png"
+                            alt="Notepad"
+                            className="notepad-img"
+                        />
+                        <Card className="overlaying-card position-absolute">
+                            <div className="tech-card-img-container">
+                                <Row className="tech-row">
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6} >
+                                        <div className="tech-icons">
+                                            <FaJs className="icon" />
+                                            <span className="icon-tooltip">Javascript</span>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <SiTypescript className="icon" />
+                                            <span className="icon-tooltip">Typescript</span>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row className="tech-row">
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <FaReact className="icon" />
+                                            <span className="icon-tooltip">React</span>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <FaBootstrap className="icon" />
+                                            <span className="icon-tooltip">Bootstrap</span>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row className="tech-row">
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <FaHtml5 className="icon" />
+                                            <span className="icon-tooltip">HTML</span>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <FaCss3Alt className="icon" />
+                                            <span className="icon-tooltip">CSS</span>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row className="tech-row">
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons ">
+                                            <SiRedux className="icon" />
+                                            <span className="icon-tooltip">Redux</span>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <SiVite className="icon" />
+                                            <span className="icon-tooltip">Vite</span>
+                                        </div>
+                                    </Col>
+                                </Row>
                             </div>
-                        </div>
+                        </Card>
                     </Card>
                 </Col>
 
-                <Col md={4} className="my-stack-col">
+                <Col lg={4} md={6} sm={12} className="my-stack-col">
+                    <span className="tech-category-text">Other technologies</span>
                     <Card className="tech-card">
-                        <span className="tech-category-text">Other technologies</span>
-                        <div className="tech-card-img-container">
-                            <Card.Img
-                                variant="top"
-                                src="/assets/notepad-img.png"
-                                alt="Notepad"
-                                className="notepad-img"
-                            />
-                            <div className="tech-icons">
-                                <div className="icon-pair">
-                                    <div className="icon-container">
-                                        <FaGit className="icon" />
-                                        <span className="icon-tooltip">Git</span>
-                                    </div>
 
-                                    <div className="icon-container">
-                                        <SiPostman className="icon" />
-                                        <span className="icon-tooltip">Postman</span>
-                                    </div>
-                                </div>
-
-                                <div className="icon-pair">
-                                    <div className="icon-container">
-                                        <IoLogoFirebase className="icon" />
-                                        <span className="icon-tooltip">Firebase</span>
-                                    </div>
-
-                                    <div className="icon-container">
-                                        <DiVisualstudio className="icon" />
-                                        <span className="icon-tooltip">Visual Studio Code</span>
-                                    </div>
-                                </div>
-
-                                <div className="icon-pair">
-                                    <div className="icon-container">
-                                        <SiIntellijidea className="icon" />
-                                        <span className="icon-tooltip">Intellij</span>
-                                    </div>
-
-                                    <div className="icon-container">
-                                        <FaUnity className="icon" />
-                                        <span className="icon-tooltip">Unity</span>
-                                    </div>
-                                </div>
+                        <Card.Img
+                            variant="top"
+                            src="/assets/notepad-img.png"
+                            alt="Notepad"
+                            className="notepad-img"
+                        />
+                        <Card className="overlaying-card position-absolute">
+                            <div className="tech-card-img-container">
+                                <Row className="tech-row">
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6} >
+                                        <div className="tech-icons">
+                                            <FaGit className="icon" />
+                                            <span className="icon-tooltip">Git</span>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <SiPostman className="icon" />
+                                            <span className="icon-tooltip">Postman</span>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row className="tech-row">
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <IoLogoFirebase className="icon" />
+                                            <span className="icon-tooltip">Firebase</span>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <DiVisualstudio className="icon" />
+                                            <span className="icon-tooltip">Visual Studio Code</span>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row className="tech-row">
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <SiIntellijidea className="icon" />
+                                            <span className="icon-tooltip">Intellij</span>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} sm={6} md={6} lg={6} xl={6}>
+                                        <div className="tech-icons">
+                                            <FaUnity className="icon" />
+                                            <span className="icon-tooltip">Unity</span>
+                                        </div>
+                                    </Col>
+                                </Row>
                             </div>
-                        </div>
+                        </Card>
                     </Card>
                 </Col>
             </Row>
