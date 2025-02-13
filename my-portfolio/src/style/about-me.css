@@ -1,0 +1,9 @@
+img.card-img{
+    max-height: 170px;
+    max-width: 170px;
+}
+
+.card-header-hobby{
+    background-color:#ef6ea7 !important;
+}
+
