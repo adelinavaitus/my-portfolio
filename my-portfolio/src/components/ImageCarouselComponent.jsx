@@ -9,7 +9,7 @@ function ImageCarousel() {
                 <Link to="https://www.coursera.org/account/accomplishments/specialization/D9CRZ6196WZH">
                     <img
                         className="d-block w-100"
-                        src="/assets/coursera/java_course.jpeg"
+                        src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~D9CRZ6196WZH/CERTIFICATE_LANDING_PAGE~D9CRZ6196WZH.jpeg"
                         alt="First slide"
                     />
                 </Link>
@@ -19,7 +19,7 @@ function ImageCarousel() {
                 <Link to="https://www.coursera.org/account/accomplishments/specialization/6XXLOAZPRI8U">
                     <img
                         className="d-block w-100"
-                        src="/assets/coursera/spring_course.jpeg"
+                        src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6XXLOAZPRI8U/CERTIFICATE_LANDING_PAGE~6XXLOAZPRI8U.jpeg"
                         alt="Second slide"
                     />
                 </Link>
@@ -29,7 +29,7 @@ function ImageCarousel() {
                 <Link to="https://www.coursera.org/account/accomplishments/verify/H35CPZ57F3V2">
                     <img
                         className="d-block w-100"
-                        src="/assets/coursera/react_course.jpeg"
+                        src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~H35CPZ57F3V2/CERTIFICATE_LANDING_PAGE~H35CPZ57F3V2.jpeg"
                         alt="Third slide"
                     />
                 </Link>

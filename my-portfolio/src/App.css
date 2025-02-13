@@ -121,8 +121,7 @@
   padding: 50px;
 }
 
-.certificates-intro, .tech-category-text, 
-.header-text {
+.certificates-intro, .tech-category-text {
   text-align: center;
   color: var(--text-color);
   font-size: 1.2rem; 
