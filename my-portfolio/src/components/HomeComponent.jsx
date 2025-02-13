@@ -43,7 +43,7 @@ function Home() {
                             <Link to="https://github.com/adelinavaitus">
                                 <FaGithub className="home-icon" />
                             </Link>
-                            <Link to="www.linkedin.com/in/adelina-vaitus-994617209">
+                            <Link to="https://www.linkedin.com/in/adelina-vaitus-994617209">
                                 <FaLinkedin className="home-icon" />
                             </Link>
                         </div>
