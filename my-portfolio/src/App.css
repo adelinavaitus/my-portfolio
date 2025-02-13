@@ -67,48 +67,25 @@
   object-fit: cover;
   background-color: var(--primary-color);
   border-color: var(--primary-color);
-  margin: 0;
 }
 
 .tech-icons {
-  position: absolute;
-  top: 15%;
-  left: 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.tech-icons {
-  display: flex;
-  flex-direction: column; 
-  gap: 25px; 
-  align-items: center; 
-}
-
-.icon-pair {
-  display: flex;
-  justify-content: center; 
-  gap: 85px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 .tech-icons svg {
-  color: black;
+  color: var(--secondary-color);
   transition: color 0.3s ease-in-out;
 }
 
 .tech-icons svg:hover {
-  color: var(--primary-color);
+  color: var(--hover-color);
 }
 
 .icon{
-  font-size: 70px;
-}
-
-.icon-container {
-  position: relative; 
-  display: inline-block;
+  cursor: pointer;
 }
 
 .icon-tooltip {
@@ -127,7 +104,7 @@
   transition: opacity 0.2s ease-in-out;
 }
 
-.icon-container:hover .icon-tooltip {
+.tech-icons:hover .icon-tooltip {
   opacity: 1;
 }
 
@@ -207,5 +184,32 @@ h3{
   background-color: var(--hover-color)!important; 
   border-color: var(--hover-color)!important; 
   color: white; 
+}
+
+
+.first-row-empty{
+  height: 55px;
+}
+
+.overlaying-card {
+  top: 13%;
+  left: 5%;
+  width: 90%;
+  max-height: 80%;
+  padding: 1rem; 
+  border-radius: 0px; 
+  margin: 0px;
+  border: 1px;
+  z-index: 10; 
+}
+
+div.my-stack-col.col-md-4{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.overlaying-card.position-absolute.card,
+div.tech-card.card{
+  border: 0px;
 }
 
