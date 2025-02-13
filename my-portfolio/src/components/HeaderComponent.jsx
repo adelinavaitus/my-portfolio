@@ -29,13 +29,6 @@ function Header() {
                         </Link>
                     </Nav.Item>
                     <Nav.Item className="nav-item">
-                        <Link to="/projects" className="link-style">
-                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-projects.png)' }}>
-                                <span className="header-text">Projects</span>
-                            </div>
-                        </Link>
-                    </Nav.Item>
-                    <Nav.Item className="nav-item">
                         <Link to="/contact" className="link-style">
                             <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-contactme.png)' }}>
                                 <span className="header-text">Contact me</span>
