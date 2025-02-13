@@ -23,3 +23,10 @@ img.card-img{
 .h1-softskills{
     margin-bottom: 50px;
 }
+
+.info-button{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    font-size: 30px !important;
+    padding-bottom: 20px !important;
+}
