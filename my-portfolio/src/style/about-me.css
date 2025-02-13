@@ -3,7 +3,23 @@ img.card-img{
     max-width: 170px;
 }
 
+.aboutme-container{
+    margin-top: 100px;
+
+}
+
 .card-header-hobby{
     background-color:#ef6ea7 !important;
 }
 
+.soft-skills-row{
+    margin-bottom: 100px;
+}
+
+.hobby-card{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.h1-softskills{
+    margin-bottom: 50px;
+}

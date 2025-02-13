@@ -1,13 +1,19 @@
 import React from "react";
 import "../style/about-me.css"
 import { Row, Col, Card } from "react-bootstrap";
+import SoftSkillsCards from "./SoftSkillsCards";
 
 function About() {
     return (
-        <div>
+        <div className="aboutme-container">
+            <Row className="soft-skills-row">
+                <h1 className="h1-softskills">Soft skills</h1>
+                <SoftSkillsCards />
+            </Row>
             <Row>
+                <h1 className="h1-softskills">My hobbies</h1>
                 <Col>
-                    <Card>
+                    <Card className="hobby-card">
                         <Card.Header className="card-header-hobby">Knitting</Card.Header>
                         <Card.Body>
                             <Row>
@@ -26,7 +32,7 @@ function About() {
                 </Col>
 
                 <Col>
-                    <Card>
+                    <Card className="hobby-card">
                         <Card.Header className="card-header-hobby">Traveling</Card.Header>
                         <Card.Body>
                             <Row>
@@ -43,7 +49,7 @@ function About() {
                 </Col>
 
                 <Col>
-                    <Card>
+                    <Card className="hobby-card">
                         <Card.Header className="card-header-hobby">Reading</Card.Header>
                         <Card.Body>
                             <Row>
