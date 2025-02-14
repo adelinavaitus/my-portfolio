@@ -1,0 +1,38 @@
+.back-home-button{
+    margin-top: 40px !important;
+    width: 200px !important;
+    background-color: var(--primary-color) !important;
+    border: 2px solid var(--primary-color) !important;
+    font-size: 1.3rem !important;
+}
+
+.back-home-button:hover{
+    width: 200px !important;
+    background-color: white !important;
+    border-color: var(--primary-color) !important;
+    border: 2px solid !important;
+    color: var(--primary-color) !important;
+    font-size: 1.3rem !important;
+}
+
+.text-col{
+    margin-top: 50px !important;
+}
+
+.notfound-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.image-col{
+    min-width:300px;
+    max-width: 500px;
+}
+
+.notfound-img{
+    min-width:300px;
+    max-width: 500px;
+}
