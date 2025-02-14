@@ -1,0 +1,58 @@
+.container{
+    max-width: 1280px;
+    text-align: center;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+.buttons-container{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.home-icon {
+    font-size: 35px;
+    margin-right: 10px;
+    color: var(--secondary-color);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+.home-icon:hover {
+    color: var(--accent-color);
+}
+
+.colaborate-button, .work-button{
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 200px;
+}
+  
+.colaborate-button {
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important; 
+    color: white; 
+}
+  
+.colaborate-button:hover {
+    background-color: #00a550!important; 
+    border-color: #00a550 !important; 
+    color: white; 
+}
+  
+.work-button {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important; 
+    color: white; 
+}
+  
+.work-button:hover {
+    background-color: var(--accent-color)!important; 
+    border-color: var(--accent-color)!important; 
+    color: white; 
+}

@@ -3,6 +3,7 @@ import { Button, Row, Col } from "react-bootstrap";
 import { FaMapMarkerAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
+import "../style/home.css"
 
 function Home() {
     return (

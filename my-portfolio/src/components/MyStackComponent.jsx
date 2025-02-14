@@ -3,6 +3,7 @@ import { Row, Col, Card, Button} from "react-bootstrap";
 import ImageCarousel from "./ImageCarouselComponent";
 import { FaArrowDown, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "../style/my-stack.css";
 
 function Stack() {
     return (
