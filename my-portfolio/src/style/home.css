@@ -32,6 +32,13 @@
     margin-top: 10px;
     width: 200px;
 }
+
+@media (max-width: 575.98px) {
+    .colaborate-button, .work-button{
+        margin-right: 0px;
+    }
+}
+
   
 .colaborate-button {
     background-color: var(--accent-color) !important;
@@ -55,4 +62,9 @@
     background-color: var(--accent-color)!important; 
     border-color: var(--accent-color)!important; 
     color: white; 
+}
+
+.home-img, .portfolio-img{
+    min-width:300px;
+    max-width: 700px;
 }

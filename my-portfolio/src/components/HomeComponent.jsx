@@ -16,6 +16,7 @@ function Home() {
                                 src="/assets/portfolio.png"
                                 alt="Adelina's portfolio"
                                 style={{ width: "100%", objectFit: "cover" }}
+                                className="portfolio-img"
                             />
                         </div>
                         <div>
@@ -56,6 +57,7 @@ function Home() {
                         src="/assets/home-img.png"
                         alt="Home page image"
                         style={{ width: "100%", objectFit: "cover" }}
+                        className="home-img"
                     />
                 </Col>
             </Row>
