@@ -4,12 +4,13 @@ img.card-img{
 }
 
 .aboutme-container{
-    margin-top: 100px;
-
+    max-width: 1280px; 
+    margin: 0 auto;
+    padding: 20px; 
 }
 
 .card-header-hobby{
-    background-color:#ef6ea7 !important;
+    background-color:var(--primary-color) !important;
 }
 
 .soft-skills-row{
@@ -20,13 +21,19 @@ img.card-img{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.h1-softskills{
-    margin-bottom: 50px;
+.h3-softskills{
+    padding-bottom: 20px;
 }
 
 .info-button{
-    background-color: var(--primary-color) !important;
-    border-color: var(--primary-color) !important;
+    background-color: var(--background-color) !important;
+    border-color: var(--background-color) !important;
     font-size: 30px !important;
     padding-bottom: 20px !important;
+}
+
+.text-intro{
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }

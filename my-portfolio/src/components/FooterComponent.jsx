@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { FaMapMarkerAlt, FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 function Footer() {
   return (
@@ -29,13 +31,13 @@ function Footer() {
 
           <Col md={6} sm={12}>
             <h5>Contact</h5>
-            <p>Email: adelinavaitus@gmail.com</p>
-            <p>Address: Bucharest</p>
+            <p><MdEmail /> adelinavaitus@gmail.com</p>
+            <p><FaMapMarkerAlt /> Bucharest, Romania</p>
           </Col>
         </Row>
         <Row className="mt-3">
           <Col className="text-center">
-            <p className="mb-0">&copy; {new Date().getFullYear()}</p>
+            <p className="mb-0">&copy; {new Date().getFullYear()} Designed and built by Adelina Vaitus.</p>
           </Col>
         </Row>
       </Container>

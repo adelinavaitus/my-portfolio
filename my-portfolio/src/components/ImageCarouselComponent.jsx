@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import "../style/my-stack.css";
 
 function ImageCarousel() {
     return (
@@ -9,8 +10,8 @@ function ImageCarousel() {
                 <Link to="https://www.coursera.org/account/accomplishments/specialization/D9CRZ6196WZH">
                     <img
                         className="d-block w-100"
-                        src="/assets/coursera/java_course.jpeg"
-                        alt="First slide"
+                        src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~D9CRZ6196WZH/CERTIFICATE_LANDING_PAGE~D9CRZ6196WZH.jpeg"
+                        alt="Java certificate"
                     />
                 </Link>
             </Carousel.Item>
@@ -19,8 +20,8 @@ function ImageCarousel() {
                 <Link to="https://www.coursera.org/account/accomplishments/specialization/6XXLOAZPRI8U">
                     <img
                         className="d-block w-100"
-                        src="/assets/coursera/spring_course.jpeg"
-                        alt="Second slide"
+                        src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6XXLOAZPRI8U/CERTIFICATE_LANDING_PAGE~6XXLOAZPRI8U.jpeg"
+                        alt="Spring Framework certificate"
                     />
                 </Link>
             </Carousel.Item>
@@ -29,8 +30,8 @@ function ImageCarousel() {
                 <Link to="https://www.coursera.org/account/accomplishments/verify/H35CPZ57F3V2">
                     <img
                         className="d-block w-100"
-                        src="/assets/coursera/react_course.jpeg"
-                        alt="Third slide"
+                        src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~H35CPZ57F3V2/CERTIFICATE_LANDING_PAGE~H35CPZ57F3V2.jpeg"
+                        alt="React certificate"
                     />
                 </Link>
             </Carousel.Item>

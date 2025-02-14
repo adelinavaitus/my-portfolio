@@ -7,6 +7,7 @@ import About from './components/AboutMeComponent';
 import Contact from './components/ContactMeComponent';
 import Home from './components/HomeComponent';
 import Stack from './components/MyStackComponent';
+import NotFound from './components/NotFoundComponent';
 
 function App() {
   return (
@@ -14,9 +15,11 @@ function App() {
       <Header />
       <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="/home" element={<Home />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/stack" element={<Stack />}/>
           <Route path="/contact" element={<Contact />}/>
+          <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>

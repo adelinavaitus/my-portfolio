@@ -1,0 +1,129 @@
+.carousel-container{
+    background-color: var(--background-color);
+}
+
+.container{
+    max-width: 1280px;
+    text-align: center;
+}
+
+.tech-card {
+    max-width: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.tech-card:hover {
+    transform: scale(1.05); 
+}
+
+.notepad-img {
+    object-fit: cover;
+    background-color: var(--background-color);
+    border-color: var(--background-color);
+    border-radius: 0px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; 
+  background-size: 100%;
+  border-radius: 50%; 
+}
+
+.row-container{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+.my-stack-col{
+    max-height: 400px;
+}
+
+div.my-stack-col.col-md-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.tech-card.card{
+    border: 0px;
+}
+
+div.my-stack-col.col-lg-4.col-md-6.col-sm-12{
+    min-width: 250px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.my-stack-col{
+    max-height: 400px;
+}
+  
+div.my-stack-col.col-md-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+  
+div.tech-card.card{
+    border: 0px;
+}
+  
+div.my-stack-col.col-lg-4.col-md-6.col-sm-12{
+    min-width: 250px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.github-row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+  
+.h4-github{
+    color: var(--text-color);
+}
+  
+.github-button{
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important; 
+    color: white; 
+    width: 250px;
+    font-size: 1.4rem !important;
+    border-radius: 12px !important;
+}
+  
+.github-button:hover{
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important; 
+}
+
+.h4.h4-github{
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.title-tech-card, div.tech-card.card {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+img.card-img-top.notepad-img{
+    border-radius: 0px;
+}
+
+.empty-div{
+    height: 10px;
+    background-color: var(--background-color);
+}
+
+.flower-line{
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.text-intro-stack{
+    font-size: 1.2rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}

@@ -16,12 +16,12 @@ function Contact() {
 
             <div className="buttons-container-contact">
                 <Link to="https://www.linkedin.com/in/adelina-vaitus-994617209">
-                    <Button className="linkedin-button">Linked
+                    <Button className="linkedin-button shadow">Linked
                         <FaLinkedin className="linkedin-logo" />
                     </Button>
                 </Link>
                 <Link to="mailto:adelinavaitus@gmail.com">
-                    <Button className="email-button">Send me an email
+                    <Button className="email-button shadow">Send me an email
                         <MdOutgoingMail className="email-logo" />
                     </Button>
                 </Link>
