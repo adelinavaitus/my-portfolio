@@ -29,16 +29,16 @@ function Home() {
 
                         <div className="buttons-container">
                             <Link to="/contact">
-                                <Button className="colaborate-button">Get in touch</Button>
+                                <Button className="colaborate-button shadow">Get in touch</Button>
                             </Link>
                             <Link to="/projects">
-                                <Button className="work-button" variant="secondary">See my work</Button>
+                                <Button className="work-button shadow" variant="secondary">See my work</Button>
                             </Link>
                         </div>
                         
                         <div>
                             <a href="mailto:adelinavaitus@gmail.com">
-                                <MdEmail className="home-icon" />
+                                <MdEmail className="home-icon " />
                             </a>
                             <Link to="https://github.com/adelinavaitus">
                                 <FaGithub className="home-icon" />

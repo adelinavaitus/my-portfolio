@@ -7,7 +7,7 @@ function Header() {
         <Navbar className="navbar" variant="dark" expand="lg">
             <Container>
                 <Nav className="ms-auto">
-                    <Nav.Item className="nav-item">
+                    <Nav.Item className="nav-item ">
                         <Link to="/" className="link-style">
                             <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-home.png)' }}>
                             </div>

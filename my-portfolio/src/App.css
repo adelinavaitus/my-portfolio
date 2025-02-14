@@ -196,3 +196,7 @@ h4.h4-github{
   margin: 0px;
   padding-top: 30px;
 }
+
+.shadow{
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+}

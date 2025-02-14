@@ -12,7 +12,7 @@ function Stack() {
 
                 <Col lg={4} md={6} sm={12} className="my-stack-col" >
                     <span className="tech-category-text">Backend</span>
-                    <Card className="tech-card">
+                    <Card className="tech-card shadow">
                         <Card.Img
                             variant="top"
                             src="/assets/notepad1.png"
@@ -24,7 +24,7 @@ function Stack() {
 
                 <Col lg={4} md={6} sm={12} className="my-stack-col">
                     <span className="tech-category-text">Frontend</span>
-                    <Card className="tech-card">
+                    <Card className="tech-card shadow">
                         <Card.Img
                             variant="top"
                             src="/assets/notepad2.png"
@@ -36,7 +36,7 @@ function Stack() {
 
                 <Col lg={4} md={6} sm={12} className="my-stack-col">
                     <span className="tech-category-text">Other technologies</span>
-                    <Card className="tech-card">
+                    <Card className="tech-card shadow">
 
                         <Card.Img
                             variant="top"
@@ -58,7 +58,7 @@ function Stack() {
                 <h4 className="h4-github">You can see my work here</h4>
                  <FaArrowDown className="arrow-down"/>
                 <Link to="https://github.com/adelinavaitus">
-                    <Button className="github-button">Github <FaGithub />
+                    <Button className="github-button shadow">Github <FaGithub />
                     </Button>
                 </Link>
 
