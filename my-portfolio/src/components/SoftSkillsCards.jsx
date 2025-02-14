@@ -17,7 +17,7 @@ const SoftSkillsCards = () => {
     <div className="card-container">
       <Row className="g-4" style={{ display: 'flex', justifyContent: 'center' }}>
          {softSkills.map((skill, index) => (
-          <Col key={index}>
+          <Col xs={6} sm={6} md={4} lg={4} xl={2} key={index}>
             <div className="soft-card">
               <div className="card-inner">
                 
