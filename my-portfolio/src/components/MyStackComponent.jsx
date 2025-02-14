@@ -1,6 +1,8 @@
 import React from "react";
-import { Row, Col, Card } from "react-bootstrap";
+import { Row, Col, Card, Button} from "react-bootstrap";
 import ImageCarousel from "./ImageCarouselComponent";
+import { FaArrowDown, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Stack() {
     return (
@@ -44,6 +46,22 @@ function Stack() {
                         />
                     </Card>
                 </Col>
+            </Row>
+            <Row>
+                <img
+                    src="/assets/flower-line.png"
+                    alt="Flower line image"
+                    style={{ width: "100%", objectFit: "cover" }}
+                />
+            </Row>
+            <Row className="github-row" >
+                <h4 className="h4-github">You can see my work here</h4>
+                 <FaArrowDown className="arrow-down"/>
+                <Link to="https://github.com/adelinavaitus">
+                    <Button className="github-button">Github <FaGithub />
+                    </Button>
+                </Link>
+
             </Row>
             <Row>
                 <img

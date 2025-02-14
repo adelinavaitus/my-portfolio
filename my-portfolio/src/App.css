@@ -161,3 +161,38 @@ div.my-stack-col.col-lg-4.col-md-6.col-sm-12{
   padding-left: 0px;
   padding-right: 0px;
 }
+
+
+.github-row{
+  height: 200px;
+  padding: 10px 30px;
+  margin-bottom: 50px;
+}
+
+.h4-github{
+  color: var(--text-color);
+}
+
+.arrow-down{
+  font-size: 1.5rem;
+  color:var(--text-color);
+}
+
+.github-button{
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important; 
+  color: white; 
+  width: 250px;
+  font-size: 1.4rem !important;
+  border-radius: 12px !important;
+}
+
+.github-button:hover{
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important; 
+}
+
+h4.h4-github{
+  margin: 0px;
+  padding-top: 30px;
+}
