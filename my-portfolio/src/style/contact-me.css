@@ -11,12 +11,14 @@
     font-family: 'Roboto', sans-serif !important; 
     background-color: white !important;
     border-color: blue !important;
+    border: 3px solid !important;
     font-size: 1.3rem !important; 
 }
 
 .linkedin-button:hover{
     color:white !important;
     background-color: blue !important;
+    border-color: blue !important;
 }
 
 .linkedin-button, .email-button{
@@ -45,6 +47,7 @@
     color:#ef6ea7 !important;
     background-color: white !important;
     border-color: #ef6ea7 !important;
+    border: 3px solid;
 }
 
 .email-logo{
