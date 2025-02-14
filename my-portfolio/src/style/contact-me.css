@@ -7,16 +7,15 @@
   }
 
 .linkedin-button{
-    color: blue !important;
-    background-color: white !important;
-    border-color: blue !important;
-    border: 3px solid !important;
+    color:white !important;
+    background-color: blue !important;
+    border: 3px solid blue !important;
     font-size: 1.3rem !important; 
 }
 
 .linkedin-button:hover{
-    color:white !important;
-    background-color: blue !important;
+    color: blue !important;
+    background-color: white !important;
     border-color: blue !important;
 }
 
@@ -36,7 +35,6 @@
 
 .email-button {
     color: white !important;
-    font-family: 'Roboto', sans-serif !important; 
     background-color: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
     font-size: 1.3rem !important; 
@@ -60,6 +58,5 @@
 
 .contact-text{
     font-size: 1.3rem; 
-    font-family: 'Roboto', sans-serif; 
     color: var(--text-color);
 }
