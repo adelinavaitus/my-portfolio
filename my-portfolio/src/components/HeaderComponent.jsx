@@ -2,35 +2,29 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+// Array containing the nav items and their corresponding paths and icons
+const navItems = [
+    { to: "/", icon: "/assets/washi-tape-home.png" },   // Home
+    { to: "/about", icon: "/assets/washi-tape-aboutme.png" },   // About me
+    { to: "/stack", icon: "/assets/washi-tape-stack.png" },     //My stack
+    { to: "/contact", icon: "/assets/washi-tape-contactme.png" },  //Contact me
+];
+
 function Header() {
     return (
         <Navbar className="navbar" variant="dark" expand="lg">
             <Container>
                 <Nav className="ms-auto">
-                    <Nav.Item className="nav-item ">
-                        <Link to="/" className="link-style">
-                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-home.png)' }}>
-                            </div>
-                        </Link>
-                    </Nav.Item>
-                    <Nav.Item className="nav-item">
-                        <Link to="/about" className="link-style">
-                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-aboutme.png)' }}>
-                            </div>
-                        </Link>
-                    </Nav.Item>
-                    <Nav.Item className="nav-item">
-                        <Link to="/stack" className="link-style">
-                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-stack.png)' }}>
-                            </div>
-                        </Link>
-                    </Nav.Item>
-                    <Nav.Item className="nav-item">
-                        <Link to="/contact" className="link-style">
-                            <div className="nav-icon" style={{ backgroundImage: 'url(/assets/washi-tape-contactme.png)' }}>
-                            </div>
-                        </Link>
-                    </Nav.Item>
+                    {/* Loop through navItems array and render each link dynamically */}
+                    {navItems.map((item, index) => (
+                        <Nav.Item key={index} className="nav-item">
+                            {/* Link for each nav item, with icon and path */}
+                            <Link to={item.to} className="link-style">
+                                {/* Set background image for each nav item */}
+                                <div className="nav-icon" style={{ backgroundImage: `url(${item.icon})` }}></div>
+                            </Link>
+                        </Nav.Item>
+                    ))}
                 </Nav>
             </Container>
         </Navbar>
