@@ -60,54 +60,10 @@
   transform: scale(1.05); 
 }
 
-.tech-card-img-container {
-  position: relative;
-}
-
 .notepad-img {
   object-fit: cover;
   background-color: var(--primary-color);
   border-color: var(--primary-color);
-}
-
-.tech-icons {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 25px;
-}
-
-.tech-icons svg {
-  color: var(--secondary-color);
-  transition: color 0.3s ease-in-out;
-}
-
-.tech-icons svg:hover {
-  color: var(--hover-color);
-}
-
-.icon{
-  cursor: pointer;
-  font-size: 40px;
-}
-
-.icon-tooltip {
-  position: absolute;
-  bottom: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #000;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 12px;
-  opacity: 0; 
-  pointer-events: none;
-  white-space: nowrap; 
-  transition: opacity 0.2s ease-in-out;
-}
-
-.tech-icons:hover .icon-tooltip {
-  opacity: 1;
 }
 
 .carousel-control-prev-icon,
@@ -187,18 +143,6 @@ h3{
   color: white; 
 }
 
-.overlaying-card {
-  top: 11%;
-  left: 5%;
-  width: 90%;
-  max-height: 80%;
-  padding: 1rem; 
-  border-radius: 0px; 
-  margin: 0px;
-  border: 1px;
-  z-index: 10; 
-}
-
 .my-stack-col{
   max-height: 400px;
 }
@@ -208,7 +152,6 @@ div.my-stack-col.col-md-4{
   padding-right: 0px;
 }
 
-div.overlaying-card.position-absolute.card,
 div.tech-card.card{
   border: 0px;
 }
