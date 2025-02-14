@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, Button} from "react-bootstrap";
+import { Row, Col, Card, Button } from "react-bootstrap";
 import ImageCarousel from "./ImageCarouselComponent";
 import { FaArrowDown, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -8,42 +8,51 @@ import "../style/my-stack.css";
 function Stack() {
     return (
         <div className="container">
-            <h2>My Tech Stack</h2>
+            <Row>
+                <p className="text-intro-stack">
+                    As a software engineer, I have a versatile set of skills that allows
+                    me to navigate both front-end and back-end development with ease.
+                    Here's a peek into my tech toolkit.
+                </p>
+            </Row>
             <Row className="row-container">
 
                 <Col lg={4} md={6} sm={12} className="my-stack-col" >
-                    <span className="tech-category-text">Backend</span>
-                    <Card className="tech-card shadow">
+
+                    <Card className="tech-card ">
+                        <h5 className="title-tech-card">Backend</h5>
+                        <div className="empty-div"></div>
                         <Card.Img
                             variant="top"
                             src="/assets/notepad1.png"
                             alt="Notepad"
-                            className="notepad-img"
+                            className="notepad-img shadow"
                         />
                     </Card>
                 </Col>
 
                 <Col lg={4} md={6} sm={12} className="my-stack-col">
-                    <span className="tech-category-text">Frontend</span>
-                    <Card className="tech-card shadow">
+                    <Card className="tech-card ">
+                        <h5 className="title-tech-card">Frontend</h5>
+                        <div className="empty-div"></div>
                         <Card.Img
                             variant="top"
                             src="/assets/notepad2.png"
                             alt="Notepad"
-                            className="notepad-img"
+                            className="notepad-img shadow"
                         />
                     </Card>
                 </Col>
 
                 <Col lg={4} md={6} sm={12} className="my-stack-col">
-                    <span className="tech-category-text">Other technologies</span>
-                    <Card className="tech-card shadow">
-
+                    <Card className="tech-card">
+                        <h5 className="title-tech-card">Other technologies</h5>
+                        <div className="empty-div"></div>
                         <Card.Img
                             variant="top"
                             src="/assets/notepad3.png"
                             alt="Notepad"
-                            className="notepad-img"
+                            className="notepad-img shadow"
                         />
                     </Card>
                 </Col>
@@ -52,12 +61,12 @@ function Stack() {
                 <img
                     src="/assets/flower-line.png"
                     alt="Flower line image"
-                    style={{ width: "100%", objectFit: "cover" }}
+                    className="flower-line"
                 />
             </Row>
+
             <Row className="github-row" >
-                <h4 className="h4-github">You can see my work here</h4>
-                 <FaArrowDown className="arrow-down"/>
+                <h4 className="h4-github">Browse through my work here:</h4>
                 <Link to="https://github.com/adelinavaitus">
                     <Button className="github-button shadow">Github <FaGithub />
                     </Button>
@@ -68,11 +77,11 @@ function Stack() {
                 <img
                     src="/assets/flower-line.png"
                     alt="Flower line image"
-                    style={{ width: "100%", objectFit: "cover" }}
+                    className="flower-line"
                 />
             </Row>
             <Row className="row-container">
-                <div className="certificates-intro">
+                <div className="text-intro-stack">
                     <p>
                         Continuous learning has always been at the core of my professional growth.
                         Throughout my journey as a software engineer, I’ve dedicated time to acquiring

@@ -11,7 +11,7 @@ function ImageCarousel() {
                     <img
                         className="d-block w-100"
                         src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~D9CRZ6196WZH/CERTIFICATE_LANDING_PAGE~D9CRZ6196WZH.jpeg"
-                        alt="First slide"
+                        alt="Java certificate"
                     />
                 </Link>
             </Carousel.Item>
@@ -21,7 +21,7 @@ function ImageCarousel() {
                     <img
                         className="d-block w-100"
                         src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~6XXLOAZPRI8U/CERTIFICATE_LANDING_PAGE~6XXLOAZPRI8U.jpeg"
-                        alt="Second slide"
+                        alt="Spring Framework certificate"
                     />
                 </Link>
             </Carousel.Item>
@@ -31,7 +31,7 @@ function ImageCarousel() {
                     <img
                         className="d-block w-100"
                         src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~H35CPZ57F3V2/CERTIFICATE_LANDING_PAGE~H35CPZ57F3V2.jpeg"
-                        alt="Third slide"
+                        alt="React certificate"
                     />
                 </Link>
             </Carousel.Item>
