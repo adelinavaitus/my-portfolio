@@ -11,6 +11,7 @@ function Home() {
             <Row>
                 <Col>
                     <div className="home-container">
+                        {/* Portfolio Image */}
                         <div>
                             <img
                                 src="/assets/portfolio.png"
@@ -19,16 +20,17 @@ function Home() {
                                 className="portfolio-img"
                             />
                         </div>
-                        <div>
-                            <h3>
-                                Software Engineer
-                            </h3>
-                        </div>
+
+                        {/* Role/title */}
+                        <div><h3>Software Engineer</h3></div>
+
+                        {/* Location */}
                         <div>
                             <FaMapMarkerAlt style={{ fontSize: "20px" }} />
                             Bucharest, Romania
                         </div>
 
+                        {/* Action Buttons (Get in touch & See my work) */}
                         <div className="buttons-container">
                             <Link to="/contact">
                                 <Button className="colaborate-button shadow">Get in touch</Button>
@@ -37,7 +39,8 @@ function Home() {
                                 <Button className="work-button shadow" variant="secondary">See my work</Button>
                             </Link>
                         </div>
-                        
+
+                        {/* Social Media Links */}
                         <div>
                             <a href="mailto:adelinavaitus@gmail.com">
                                 <MdEmail className="home-icon " />
@@ -52,7 +55,8 @@ function Home() {
                     </div>
                 </Col>
 
-                <Col style={{ display: "flex", alignItems: "center"}}>
+                {/* Right Side Image */}
+                <Col style={{ display: "flex", alignItems: "center" }}>
                     <img
                         src="/assets/home-img.png"
                         alt="Home page image"
