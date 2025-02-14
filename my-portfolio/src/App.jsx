@@ -11,17 +11,17 @@ import NotFound from './components/NotFoundComponent';
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/home" element={<Home />}/>
-          <Route path="/about" element={<About />}/>
-          <Route path="/stack" element={<Stack />}/>
-          <Route path="/contact" element={<Contact />}/>
-          <Route path="*" element={<NotFound />} />
+    <Router>   {/* Wrapping the entire application with Router for routing functionality */}
+      <Header />  {/* Rendering Header component on top of the page */}
+      <Routes>   {/* Defining the routing for different paths */}
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/stack" element={<Stack />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} /> {/* Catch-all route for undefined pages, renders NotFound */}
       </Routes>
-      <Footer />
+      <Footer />  {/* Rendering Footer component at the bottom of the page */}
     </Router>
   )
 }

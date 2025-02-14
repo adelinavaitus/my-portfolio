@@ -42,9 +42,13 @@
   opacity: 0.5; 
 }
 
-.link-style {
+.link-style, .link-style-footer {
   text-decoration: none;
   color: inherit;
+}
+
+.link-style-footer:hover{
+  text-decoration: underline;
 }
 
 h3{
