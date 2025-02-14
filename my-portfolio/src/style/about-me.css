@@ -9,7 +9,7 @@ img.card-img{
 }
 
 .card-header-hobby{
-    background-color:#ef6ea7 !important;
+    background-color:var(--primary-color) !important;
 }
 
 .soft-skills-row{
@@ -25,8 +25,8 @@ img.card-img{
 }
 
 .info-button{
-    background-color: var(--primary-color) !important;
-    border-color: var(--primary-color) !important;
+    background-color: var(--background-color) !important;
+    border-color: var(--background-color) !important;
     font-size: 30px !important;
     padding-bottom: 20px !important;
 }

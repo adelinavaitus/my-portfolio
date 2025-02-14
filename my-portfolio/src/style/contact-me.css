@@ -38,15 +38,15 @@
 .email-button {
     color: white !important;
     font-family: 'Roboto', sans-serif !important; 
-    background-color: #ef6ea7 !important;
-    border-color: #ef6ea7 !important;
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
     font-size: 1.3rem !important; 
 }
 
 .email-button:hover{
-    color:#ef6ea7 !important;
+    color:var(--primary-color) !important;
     background-color: white !important;
-    border-color: #ef6ea7 !important;
+    border-color: var(--primary-color) !important;
     border: 3px solid;
 }
 

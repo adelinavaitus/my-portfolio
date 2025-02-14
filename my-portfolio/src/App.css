@@ -1,8 +1,9 @@
-:root {
-  --primary-color: #f6cbb6;
+:root { 
+  --background-color: #f6cbb6;
+  --primary-color: #ef6ea7;
   --text-color: #333;
   --secondary-color: #666666;
-  --hover-color: #4ac284;
+  --accent-color: #4ac284;
 }
 
 #root {
@@ -11,11 +12,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
 }
 
 .navbar, .footer, .carousel-container{
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
 }
 
 /* Styles for each navbar item */
@@ -62,8 +63,8 @@
 
 .notepad-img {
   object-fit: cover;
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
+  background-color: var(--background-color);
+  border-color: var(--background-color);
 }
 
 .carousel-control-prev-icon,
@@ -110,7 +111,7 @@ h3{
 }
 
 .home-icon:hover {
-  color: var(--hover-color);
+  color: var(--accent-color);
 }
 
 .colaborate-button, .work-button{
@@ -120,8 +121,8 @@ h3{
 }
 
 .colaborate-button {
-  background-color: var(--hover-color) !important;
-  border-color: var(--hover-color) !important; 
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important; 
   color: white; 
 }
 
@@ -138,8 +139,8 @@ h3{
 }
 
 .work-button:hover {
-  background-color: var(--hover-color)!important; 
-  border-color: var(--hover-color)!important; 
+  background-color: var(--accent-color)!important; 
+  border-color: var(--accent-color)!important; 
   color: white; 
 }
 
@@ -188,8 +189,8 @@ div.my-stack-col.col-lg-4.col-md-6.col-sm-12{
 }
 
 .github-button:hover{
-  background-color: var(--hover-color) !important;
-  border-color: var(--hover-color) !important; 
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important; 
 }
 
 h4.h4-github{
