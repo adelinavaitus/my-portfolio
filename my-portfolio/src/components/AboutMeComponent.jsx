@@ -44,7 +44,7 @@ function About() {
                 <h3 className="h3-softskills">Discover My Superpower: Soft Skills
                     <OverlayTrigger
                         placement="right"
-                        overlay={<Tooltip>Hover over a section to reveal the skill.</Tooltip>}>
+                        overlay={<Tooltip className="tooltip-info">Hover over a section to reveal the skill.</Tooltip>}>
                         <Button variant="info" className="info-button">
                             <CiCircleInfo />    {/* Info icon */}
                         </Button>
