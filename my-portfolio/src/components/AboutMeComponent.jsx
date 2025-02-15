@@ -60,13 +60,13 @@ function About() {
                 </h3>
                 {/* Mapping through hobbies array to display each hobby */}
                 {hobbies.map((hobby) => (
-                    <Col key={hobby.name}>
-                        <Card className="hobby-card">
+                    <Col key={hobby.name} className="d-flex">
+                        <Card className="hobby-card  h-100">
                             <Card.Header className="card-header-hobby">{hobby.name}</Card.Header>
                             <Card.Body>
                                 <Row>
                                     <Col>
-                                        <Card.Img src={hobby.img_src} />
+                                        <Card.Img src={hobby.img_src} className="hobby-image" />
                                     </Col>
                                     <Col>
                                         <Card.Text>{hobby.description}</Card.Text>

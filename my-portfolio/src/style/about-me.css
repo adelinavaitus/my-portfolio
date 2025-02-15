@@ -43,3 +43,7 @@ img.card-img{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
+.hobby-image{
+    min-width: 100px;
+}
