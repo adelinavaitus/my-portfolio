@@ -9,7 +9,7 @@ const hobbies = [
     {
         name: "Knitting",
         img_src: "/assets/hobbies/knitting.png",
-        description: "For me, knitting serves as a therapeutic escape, providingpeace and contentment."
+        description: "For me, knitting serves as a therapeutic escape, providing peace and contentment."
     },
     {
         name: "Traveling",
@@ -44,7 +44,7 @@ function About() {
                 <h3 className="h3-softskills">Discover My Superpower: Soft Skills
                     <OverlayTrigger
                         placement="right"
-                        overlay={<Tooltip>Hover over a section to reveal the skill.</Tooltip>}>
+                        overlay={<Tooltip className="tooltip-info">Hover over a section to reveal the skill.</Tooltip>}>
                         <Button variant="info" className="info-button">
                             <CiCircleInfo />    {/* Info icon */}
                         </Button>
@@ -59,14 +59,14 @@ function About() {
                     Curious what keeps me inspired when I step away from my keyboard? It's all about my hobbies.
                 </h3>
                 {/* Mapping through hobbies array to display each hobby */}
-                {hobbies.map((hobby, index) => (
-                    <Col>
-                        <Card key={index} className="hobby-card">
+                {hobbies.map((hobby) => (
+                    <Col key={hobby.name} className="d-flex">
+                        <Card className="hobby-card  h-100">
                             <Card.Header className="card-header-hobby">{hobby.name}</Card.Header>
                             <Card.Body>
                                 <Row>
                                     <Col>
-                                        <Card.Img src={hobby.img_src} />
+                                        <Card.Img src={hobby.img_src} className="hobby-image" />
                                     </Col>
                                     <Col>
                                         <Card.Text>{hobby.description}</Card.Text>

@@ -35,7 +35,7 @@ function Home() {
                             <Link to="/contact">
                                 <Button className="colaborate-button shadow">Get in touch</Button>
                             </Link>
-                            <Link to="/projects">
+                            <Link to="https://github.com/adelinavaitus">
                                 <Button className="work-button shadow" variant="secondary">See my work</Button>
                             </Link>
                         </div>
