@@ -9,7 +9,7 @@ const hobbies = [
     {
         name: "Knitting",
         img_src: "/assets/hobbies/knitting.png",
-        description: "For me, knitting serves as a therapeutic escape, providingpeace and contentment."
+        description: "For me, knitting serves as a therapeutic escape, providing peace and contentment."
     },
     {
         name: "Traveling",
