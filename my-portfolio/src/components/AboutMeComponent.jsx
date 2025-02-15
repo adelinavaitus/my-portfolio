@@ -59,9 +59,9 @@ function About() {
                     Curious what keeps me inspired when I step away from my keyboard? It's all about my hobbies.
                 </h3>
                 {/* Mapping through hobbies array to display each hobby */}
-                {hobbies.map((hobby, index) => (
-                    <Col>
-                        <Card key={index} className="hobby-card">
+                {hobbies.map((hobby) => (
+                    <Col key={hobby.name}>
+                        <Card className="hobby-card">
                             <Card.Header className="card-header-hobby">{hobby.name}</Card.Header>
                             <Card.Body>
                                 <Row>
